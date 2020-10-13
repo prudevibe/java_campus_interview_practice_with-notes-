@@ -1,0 +1,80 @@
+object oriented :-
+every java project has one class one main
+class:
+member variables,method;
+project->package(right click)->new class enter
+public class student
+{
+		int id ;
+		String name;
+		int age;
+}
+public static void main(string[] args)
+{
+	student abhinav = new student(); //abhinav is object or instance.
+	abhinav.id =1;
+	abhinav.name ="abhinav"
+	abhinav.age =15;
+	System.out.println(abhinav.name + "is "+abhinav.age +"years");
+	student tom = new student(); //abhinav is object or instance.
+	tom.id =1;
+	tom.name ="abhinav"
+	tom.age =15;
+	System.out.println(tom.name + "is");
+}
+select id in student class -> goto source -->getters and Setters
+it will ceate getid to get it and setid to fetch it.
+it help to protect data.
+after that in main we do:-
+public static void main(string[] args)
+{
+	student abhinav = new student(); //abhinav is object or instance.
+	abhinav.setid =1;
+	abhinav.setname ="abhinav"
+	abhinav.setage =15;
+	System.out.println(abhinav.getname + "is "+abhinav.getage +"years");
+	
+}
+class constructor:-
+these are used to initilize values in class;
+create new class:-
+public class cube
+{
+	int l,b,h;
+	public int getcubevolume()
+	{
+		return(l*b*h);
+	}
+	//default constructor
+	cube()//constuctor same name as class and never return a value
+	{
+		l=10;
+		b=20;h=30;
+		System.Out.println("we are in constructure");
+	}
+	//parameter constructor
+	cube(int l,int b,int h)//constuctor same name as class and never return a value
+	{
+		l=l
+		b=b;
+		h=h;
+		System.Out.println("we are in constructure");
+	}
+}
+public static void main(String[] args)
+{
+	cube cube1 = new cube();
+		system.out.println(cube1.getcubevolume());
+	cube cube2 = new cube(20,20,20);
+		system.out.println(cube2.getcubevolume());
+}
+method overloading:-
+two method with same name;
+public static int add(int a,int b)
+{
+	return(a+b);
+}
+public static string add(string a,string b)
+{
+	return(a+b);
+}

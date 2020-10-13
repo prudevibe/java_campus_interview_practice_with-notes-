@@ -1,0 +1,37 @@
+src:-add package(used to define different workspace on yr class).
+inside package:-add new class(MyClass//follow syntax)->public->public void.
+class MyClass is creatd.
+class structure:-
+it consists a main function:-public main.
+comment:-/*enter.
+System is internal class present in java.
+//System.out.println("hello");
+variable:-decleare in specific format,
+ex:-int x = 10;
+byte is a variable of 1 byte.short if of 2 byte.
+float =(float)4.5 becasue it is default double 8 bytes.\
+boolean True=False.
+user input:-
+use of special class called Scanner.
+Scanner scan =new Scanner (System.in);//if it shows red line
+then add scanner class in ur project.
+code part.
+Scanner scan =new Scanner (System.in);
+Scanner.out.println("enter some number");
+int user_input_number = scan.nextInt();
+System.out.println("The entered value is");
+System.out.print(user_input_number); 
+
+%%text
+Scanner scan1 =new Scanner (System.in);
+Scanner.out.println("enter some number");
+double user_input_double = scan1.nextDouble();
+System.out.println("The entered value is");
+System.out.print(user_input_double);
+
+%% string
+Scanner scan =new Scanner (System.in);
+Scanner.out.println("enter some string");
+string user_input_string = scan.nextLine();
+System.out.println("The entered string is");
+System.out.print(user_input_String);  

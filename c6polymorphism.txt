@@ -1,0 +1,85 @@
+polymorphism in java:----------
+ablity of an object having different forms.
+public class bank
+{	int getinterenstrate()
+{
+	return 0;
+}
+	
+}
+public class bank_abc extends bank
+{ 	int getinterenstrate(){
+	return 5;
+	}}
+public class bank_def extends bank
+{ 	int getinterenstrate(){
+	return 6;
+	}}
+	public class bank_ghi extends bank
+{ 	int getinterenstrate(){
+	return 10;
+	}}
+	public class Myclass {
+		public static void main(String[] args)
+		{
+			Bank ABC = new Bank_ABC(); //polymorphism in java.//all are object of bank but we can call different class.
+			Bank DEF = new Bank_def();
+			Bank GHI = new Bank_ghi();
+			System.out.println(abc.getinterenstrate());
+			System.out.println(def.getinterenstrate());
+			System.out.println(ghi.getinterenstrate());
+		}
+	}
+	
+method_overriding:-suppose in above problem if we used onli one class bank than it will
+return0 only if we make a subclass and use same fn in it than it will give op 5.so method_overriding
+is taking place here.
+rules to make method_overriding fns:--
+same return type,same no of parameters
+method_overloading :-it will happen in same class only return type should not be same & parameters passedv also
+should be different.but function name should be same.
+ex:----
+public class bank_abc extends bank
+{ 	int getinterenstrate(){
+	return 5;
+	}
+	double getinterenstrate( int d){
+	return 5;
+	}
+Abstract clss in java:----
+it cannot be instanteated,like object will not be created for these class.
+Abstract public class bank // bank object cannot be created but its subclass object can be created using inheritance
+                            // as shown in above examples.
+{	int getinterenstrate()
+{
+	return 0;
+}
+	
+}	
+method of class can also be abstract if and only if class is also abstracted.and no need to give fn def in abstracted class.
+Abstract public class bank
+{Abstract int getinterenstrate()
+	
+}	
+concrete class:-----------
+on those class abstart word is not present those class are called as concrete class.
+java interface;-------------
+same as abstract class.object can not be created
+SYNTAX:--------------
+public interface bank
+{		
+		int getinterenstrate();
+}
+in eclipse youn can make interface as class creation.
+public interface bank_abc implements bank
+{		
+	public int getinterenstrate()
+	{
+		return 5;
+	}
+	
+}
+
+
+
+

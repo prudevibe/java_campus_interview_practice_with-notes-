@@ -1,0 +1,40 @@
+Method in java:-it is a piece of cade.we can call this method again and again like 
+function.
+main is also a type of method one and only one main method.
+/*
+public static void myFirstmethod()
+{
+	int a;
+	System.Out.println("hello");
+}
+*/
+public static is access specifier.it means that it can be accesed in anywhere inside the class.
+void is return type.
+():-for arguments.
+and after that call that msg in main class just like function.
+these are used when we want same code multiple times so we make
+A method for that.
+passing parameters to the method:-
+public static void fstmethod(String name)// parameters passing
+{
+	System.out..println("Hello" + name);
+}
+public static void main(String[] args)
+{
+	fstmethod("john");
+}
+op:- Hello john
+ex 2:-
+public static void add(int a,int b)
+{
+	System.out.println(a+b);
+}
+public static void main(string[] args)
+{
+	add(4,5);
+}
+public static int add(int a,int b)
+{
+	//System.out.println(a+b);
+		return(a+b);
+}

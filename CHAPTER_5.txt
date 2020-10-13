@@ -1,0 +1,67 @@
+work of static keyword in class:-
+class hello[
+public static String dosomething(String message)
+{
+	return message;
+}
+public String dosomethingelse(String message)
+{
+	return message;
+}
+}
+public static void main(String[] args)
+{
+	Hello hello = new Hello();
+	hello.dosomething("hi man");//static call
+	Hello hello1 = new Hello();
+	hello1.dosomethingelse("hi jake");//nonstatic call
+	Hello hello2 = new Hello();
+	
+}
+//static method is used by class name itself,the function which
+is not static can we used by creating instance.
+ex:-
+public class student()
+{
+	String name;
+	int age;
+	//do get getter and setter functions.
+	static int NoOfStudents =0; // static variable can be called by class itself.
+	student()//constructor
+	{
+		NoOfStudents++;
+	}
+	public int getnoofstudents()
+	{
+		return NoOfStudents;
+	}
+}
+public static void main(String[] args)
+{
+	Student mark=new student();
+	Student tom = new Student();
+	System.out.println(Student.getnoofstudents());//static called by class name itself.
+}
+Access modifiers:---------
+public and private ,protected are access specifiers.
+public can be accesed by class object in main class from subclass.
+syntax:-public datatype variablename.
+private variable can not be accesed in main class it is visible in the parent class only.
+protected data type can also be used anywhere.
+to access private data from a class create getter and setter function for those variables.
+"this" keyword represents class itself.
+FINAL keyword in java:--------------------
+a final class can not be subclassed.//inheritance is not possible.
+a final method cannot be overridden by subclass
+a final variable can only be initialized once
+public class hello(){
+	public final int number;
+	hello()//constructor
+	{
+		number =10;
+	}
+}
+now if i try to give new value to number in main than it will give error
+because it is iniilized already in constructor.
+
+

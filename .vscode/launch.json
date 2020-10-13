@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - vibe",
+            "request": "launch",
+            "mainClass": "pgrm_java.vibe",
+            "projectName": "java_notes_4749c41e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - newprog",
+            "request": "launch",
+            "mainClass": "newprog",
+            "projectName": "java_notes_4749c41e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "pgm.test",
+            "projectName": "java_notes_4749c41e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - fstprog",
+            "request": "launch",
+            "mainClass": "fstprog"
+        }
+    ]
+}

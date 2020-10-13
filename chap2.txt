@@ -1,0 +1,48 @@
+math_project in java.
+int x,y,answer;
+x=20,y=30;
+answer = x+y;
+System.out.println("answer is equal to =" + answer);
+"+" is used to concatinate op to string.
+answer = x*y;
+conditional statment:-
+if (x==10)
+{
+	System.out.println("i am good");
+}
+assignment:-
+write a program to  use:-"&&" and "||"operator.
+%%
+switc statment n java.
+code:-
+Scanner scan =new Scanner (System.in);
+Scanner.out.println("enter some number");
+int user_input_number = scan.nextInt();
+System.out.println("The entered value is");
+System.out.print(user_input_number); 
+switch (user_input_number)
+{
+case 90:
+		System.out.println("very good");
+		break;
+default:
+		System.op.println("not in range");
+
+}
+loops::::-----
+normal as others.
+arrays in java:-
+ int[] myarry = {}; or int myarray[]={};
+ System.out.println(myarray[]);
+ anthore type of for loop to acess arrays
+ for (int element : myarry)
+ {
+ hi
+ }
+ string =caharacter array.
+ String mystring = "hello"
+ System.out.println(mystring);
+ mystring.length();
+ mystring.tolowercase();//       to is used.
+ "Hello" + "world";
+ mystring.replace('e','a');//replace e by a in mystring.

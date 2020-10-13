@@ -1,0 +1,34 @@
+class inheritance in java:-----
+classes in java can be extended,creating new class which csn retain 
+charactics of base class
+"is-a" relationship
+make 3class polygon,rectangle,triangle;to find are of rect,tri??
+public class polygon{
+	protected int height;
+	protected int width;
+	public void set_values(int a, int b)
+	{
+		height=a;
+		width=b;
+	}
+}
+public class Rectangle extend polygon
+{
+	public double area(){
+	return (height*width);
+}
+public class triangle extend polygon
+{
+	public double area(){
+	return ((height*width)/2);
+}
+public static void main(String[] args)
+{
+	Rectangle rec = new Rectangle;
+	Triangle tri = new Triangle();
+	rec.set_values(10,10);
+	tri.set_values(10,10);
+	System.out.println(rec.area());
+	System.out.println(tri.area());
+	
+}
